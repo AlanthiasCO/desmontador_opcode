@@ -1,6 +1,12 @@
 # Desmontador (disassemble) de bytecode para opcode:
 
-[![My Skills](https://skillicons.dev/icons?i=solidity,py)](https://skillicons.dev) https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/jupyter_notebook.png https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/ethereum.png 
+[![My Skills](https://skillicons.dev/icons?i=solidity,py)](https://skillicons.dev) 
+
+<div align="center">
+	<code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/jupyter_notebook.png" alt="Jupyter Notebook" title="Jupyter Notebook"/></code>
+	<code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" title="Python"/></code>
+	<code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/ethereum.png" alt="Ethereum" title="Ethereum"/></code>
+</div>
 
 ## Sobre a ferramenta:
 Ferramenta para desmontar bytecodes de contratos inteligentes em seus respectivos opcodes. É uma alternativa a ferramente oferecida pela [Etherscan](https://etherscan.io/opcode-tool), que permite desmontar somente um bytecode por vez.
