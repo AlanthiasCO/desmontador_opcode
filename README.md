@@ -2,7 +2,7 @@
 
 [![My Skills](https://skillicons.dev/icons?i=solidity,py)](https://skillicons.dev)
 
-Ferramenta para desmontar bytecodes de contratos inteligentes em seus respectivos opcodes.
+Ferramenta para desmontar bytecodes de contratos inteligentes em seus respectivos opcodes. É uma alternativa a ferramente oferecida pela [Etherscan](https://etherscan.io/opcode-tool), que permite desmontar somente um bytecode por vez.
 
 A ferramenta faz web scraping no site https://ethervm.io e coleta os bytecodes e seus respectivos opcodes, criando um dicionario que permite desmontar grandes quantidade de bytecodes (desde que estejam em um arquivo .csv).
 
