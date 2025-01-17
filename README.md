@@ -1,6 +1,6 @@
 # Desmontador (disassemble) de bytecode para opcode:
 
-[![My Skills](https://skillicons.dev/icons?i=solidity)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=solidity,py)](https://skillicons.dev)
 
 Ferramenta para desmontar bytecodes de contratos inteligentes em seus respectivos opcodes.
 
