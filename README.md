@@ -12,7 +12,7 @@ A ferramenta faz web scraping no site https://ethervm.io e coleta os bytecodes e
 O arquivo V1 desmonta os bytecodes de modo generalizado na operação PUSH, SWAP, DUP, LOG. Por exemplo:
 ![alt text](imagens/tabela_v1.png)
 
-O arquivo V2 também desmonta os bytecodes de forma generalizada. No entanto, na operação PUSH, ele mantém o sufixo correspondente ao bytecode e adiciona "NUM" antes do PUSH<<sufixo>>.
+O arquivo V2 também desmonta os bytecodes de forma generalizada. No entanto, na operação PUSH, ele mantém o sufixo correspondente ao bytecode e adiciona "NUM" antes do PUSH(sufixo).
 
 ## Como usar o desmontador:
 Basta organizar o seu dataset com o cabeçalho 'bytecode' e 'category' e inserir ele em 'input_csv'. Ao rodar, será gerado um novo dataset chamado 'output.csv' que terá todos os opcodes respectivos ao seu dataset de origem inserido em 'input.csv'.
