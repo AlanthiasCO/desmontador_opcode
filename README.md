@@ -19,15 +19,21 @@ Esse desmontador conta com o operador PUSH0 inserido recentemente.
 O arquivo V1 desmonta os bytecodes de modo generalizado na operação PUSH, SWAP, DUP, LOG. Por exemplo:
 
 PUSH1 -> PUSH 
+
 PUSH2 -> PUSH 
+
 ...
+
 PUSH32 -> PUSH
 
 O arquivo V2 também desmonta os bytecodes de forma generalizada. No entanto, na operação PUSH, ele mantém o sufixo correspondente ao bytecode e adiciona "NUM" antes do PUSH(sufixo). Exemplo:
 
 PUSH1 -> PUSH NUM
+
 PUSH2 -> PUSH NUM
+
 ...
+
 PUSH32 -> PUSH NUM
 
 ## Como usar o desmontador:
